@@ -1,6 +1,8 @@
 name: oppgave 17
 on:
   push:
+    paths:
+      - .github\workflows\oppgave_17.yml
   workflow_dispatch:
 
 jobs:
